@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+body {
+    background-color:#eee;
+}
+
+nav ul {
+    background-color: rgb(152, 239, 123);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
+ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul li a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.main-img {
+    background-image:url('../image/4.jfif') ;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+.content h1{
+    color:red;
+}
+.content p{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content img{
+    width: 400px;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    
+}
+.container h2 {
+    margin: 20px auto;
+}
+
+.features {
+    display: flex;
+}
+
+.features .feature {
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 8px;
+    height: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.features .feature:hover{
+    box-shadow: 3px 3px 10px  rgb(123, 123, 209);
+    transform: translateX(-4px);
+    background-color: rgb(238, 232, 232);
+
+
+}
+
+.features i {
+    padding-top: 20px;
+    font-size: 30px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.features h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-us {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-form {
+    margin-bottom: 20px;
+}
+.input-form input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: rgb(228, 116, 116);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer {
+    background-color:rgb(7, 5, 5);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
